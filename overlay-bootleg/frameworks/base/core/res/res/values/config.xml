@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>                                                                                  
+<resources>
+
+  <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
+  <bool name="config_multiColorBatteryLed">false</bool>
+
+  <!-- Whether device has screen with higher aspect ratio -->
+  <bool name="config_haveHigherAspectRatioScreen">true</bool>
+
+  <!-- Whether device ignores the RSSNR signal implementation -->
+  <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+  <!-- Enable qcom fw boost -->
+  <bool name="config_enableQcCpuBoost">true</bool>
+
+  <!-- Whether or not swipe up gesture is enabled by default -->
+  <bool name="config_swipe_up_gesture_default">true</bool>
+
+</resources>
